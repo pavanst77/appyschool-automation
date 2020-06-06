@@ -1,0 +1,101 @@
+{
+  "staffAllotments": [
+    {
+      "branchStandardSection": {
+        "id": 1,
+        "branch": {
+          "id": 1,
+          "version": 1,
+          "name": "Kondapur",
+          "description": "Appy School, Kondapur",
+          "branchAddressDetails": {
+            "id": 1,
+            "addressLine1": "233 Plot,  Prabhupada Township",
+            "addressLine2": "Masjid Banda",
+            "addressLine3": "Kondapur",
+            "state": "Telangana",
+            "city": "Hyderabad",
+            "country": "India",
+            "pincode": "500084"
+          },
+          "emailId": "appyschool@gmail.com",
+          "contactNumber1": "7411892072",
+          "contactNumber2": "7416482930",
+          "createdDate": null,
+          "createdBy": null,
+          "updatedDate": null,
+          "updatedBy": null
+        },
+        "standard": {
+          "id": 1,
+          "version": 2,
+          "name": "Nursery",
+          "description": "Nursery",
+          "subjectDetails": [
+            {
+              "id": 1,
+              "name": "English",
+              "description": "English",
+              "createdDate": 1490438465000,
+              "createdBy": "ADMIN",
+              "updatedDate": 1490439751000,
+              "updatedBy": "ADMIN"
+            }
+          ],
+          "createdDate": null,
+          "createdBy": null,
+          "updatedDate": null,
+          "updatedBy": null
+        },
+        "section": {
+          "id": 1,
+          "version": 2,
+          "name": "Section A",
+          "description": "Section A",
+          "createdDate": null,
+          "createdBy": null,
+          "updatedDate": null,
+          "updatedBy": null
+        },
+        "createdDate": 1490439236000,
+        "createdBy": "ADMIN",
+        "updatedDate": 1490439236000,
+        "updatedBy": "ADMIN"
+      },
+      "id": null
+    }
+  ],
+  "firstName": "$firstName",
+  "lastName": "$lastName",
+  "residentialAddress": {
+    "addressLine1": "Madhapur",
+    "addressLine2": "Hi-Tech City",
+    "state": "India",
+    "city": "hyderabad",
+    "country": "India",
+    "pincode": "500081"
+  },
+  "fatherName": "$fatherName",
+  "idNumber": "$idNumber",
+  "dateOfBirth": "23-10-1988",
+  "dateOfJoin": "22-10-2016",
+  "staffDesignation": {
+    "version": 0,
+    "name": "Assistant Teacher",
+    "description": "Assistant Teacher",
+    "id": "6871091279349219338"
+  },
+  "gender": "M",
+  "perminantAddress": {
+    "addressLine1": "Madhapur",
+    "addressLine2": "Hi-Tech City",
+    "state": "India",
+    "city": "hyderabad",
+    "country": "India",
+    "pincode": "500081"
+  },
+  "primaryPhoneNumber": "9666078818",
+  "primaryEmailId": "pavanst77@gmail.com",
+  "alternatePhoneNumber": "9666078817",
+  "secondaryEmailId": "pavans77@gmail.com"
+}

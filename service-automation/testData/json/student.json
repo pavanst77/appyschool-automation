@@ -1,0 +1,40 @@
+{
+  "firstName": "$firstName",
+  "lastName": "$lastName",
+  "fatherName": "$fatherName",
+  "motherName": "$motherName",
+  "guardianName": "$guardianName",
+  "idNumber": "$idNumber",
+  "rollNumber": "$rollNumber",
+  "dateOfBirth": "$dateOfBirth",
+  "dateOfJoin": "$dateOfJoin",
+  "branchStandardSection": {
+    "id": "$branchStandardSection"
+  },
+  "academicYear": {
+    "id": "$academicYear"
+  },
+  "gender": "$gender",
+  "residentialAddress": {
+    "addressLine1": "6-2-39/2/A",
+    "addressLine2": "Shivarampally",
+    "addressLine3": "Rajendra Nagar",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "country": "India",
+    "pincode": "500052"
+  },
+  "perminantAddress": {
+    "addressLine1": "6-2-39/2/A",
+    "addressLine2": "Shivarampally",
+    "addressLine3": "Rajendra Nagar",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "country": "India",
+    "pincode": "500052"
+  },
+  "primaryPhoneNumber": "$primaryPhoneNumber",
+  "primaryEmailId": "$primaryEmailId",
+  "alternatePhoneNumber": "$alternatePhoneNumber",
+  "secondaryEmailId": "$secondaryEmailId"
+}

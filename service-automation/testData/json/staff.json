@@ -1,0 +1,49 @@
+{
+	"firstName": "$firstName",
+	"lastName": "$lastName",
+	"fatherName": "$fatherName",
+	"idNumber": "$idNumber",
+	"dateOfBirth": "$dateOfBirth",
+	"dateOfJoin": "$dateOfJoin",
+	"staffDesignation": {
+		"id": "$designationId"
+	},
+	"gender": "$gender",
+	"primaryPhoneNumber": "$primaryPhoneNumber",
+	"primaryEmailId": "$primaryEmailId",
+	"alternatePhoneNumber": "$alternatePhoneNumber",
+	"secondaryEmailId": "$secondaryEmailId",
+	"staffBranches": [{
+		"branch": {
+			"id": "$branchId"
+		}
+	}],
+	"staffSections": [{
+		"section": {
+			"id": "$sectionId"
+		}
+	}],
+	"staffStandards": [{
+		"standard": {
+			"id": "$standardId"
+		}
+	}],
+	"residentialAddress": {
+		"addressLine1": "6-2-39/2/A",
+		"addressLine2": "Shivarampally",
+		"addressLine3": "Rajendra Nagar",
+		"state": "Telangana",
+		"city": "Hyderabad",
+		"country": "India",
+		"pincode": "500052"
+	},
+	"perminantAddress": {
+		"addressLine1": "6-2-39/2/A",
+		"addressLine2": "Shivarampally",
+		"addressLine3": "Rajendra Nagar",
+		"state": "Telangana",
+		"city": "Hyderabad",
+		"country": "India",
+		"pincode": "500052"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "$name",
+  "description": "$description",
+  "branchAddressDetails": {
+    "addressLine1": "$addressLine1",
+    "addressLine2": "$addressLine2",
+    "addressLine3": "$addressLine3",
+    "state": "$state",
+    "city": "$city",
+    "country": "$country",
+    "pincode": "$pincode"
+  },
+  "emailId": "$emailId",
+  "contactNumber1": "$contactNumber1",
+  "contactNumber2": "$contactNumber2"
+}

@@ -1,0 +1,2461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="72" passed="70">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="222357" started-at="2020-02-15T10:07:25Z" finished-at="2020-02-15T10:11:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="222357" started-at="2020-02-15T10:07:25Z" finished-at="2020-02-15T10:11:07Z">
+      <class name="com.appyschool.suiteSetup.TestSuiteSetup">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-02-15T15:37:26Z" finished-at="2020-02-15T15:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="1778" started-at="2020-02-15T15:37:26Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Telugu, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="27" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=English, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="26" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Hindi, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="27" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Maths, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="23" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Science, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSubjects" duration-ms="35" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Social, $description=Creating from API Automation, $code=api123, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubjects -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSubjects status=SUCCESS method=TestSuiteSetup.testCreateSubjects(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateBranch" duration-ms="40" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Kondapur, $city=Hyderabad, $description=Creating from API Automation, $addressLine1=address line1, $addressLine3=address Line3, $addressLine2=address line2, $country=India, $pincode=500043, $state=Telangana, $contactNumber1=1234567823, $contactNumber2=4345454632, $emailId=api@autom.com, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBranch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateBranch" duration-ms="26" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Chandanagar, $city=Hyderabad, $description=Creating from API Automation, $addressLine1=address line1, $addressLine3=address Line3, $addressLine2=address line2, $country=India, $pincode=500043, $state=Telangana, $contactNumber1=1234567823, $contactNumber2=4345454632, $emailId=api@autom.com, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBranch -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateBranch" duration-ms="28" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Shivarampally, $city=Hyderabad, $description=Creating from API Automation, $addressLine1=address line1, $addressLine3=address Line3, $addressLine2=address line2, $country=India, $pincode=500043, $state=Telangana, $contactNumber1=1234567823, $contactNumber2=4345454632, $emailId=api@autom.com, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBranch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBranch status=SUCCESS method=TestSuiteSetup.testCreateBranch(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSections status=SUCCESS method=TestSuiteSetup.testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSections" duration-ms="46" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Section A, $description=Creating from Automation, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSections -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSections status=SUCCESS method=TestSuiteSetup.testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSections status=SUCCESS method=TestSuiteSetup.testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateSections" duration-ms="19" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Section B, $description=Creating from Automation, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSections -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateSections status=SUCCESS method=TestSuiteSetup.testCreateSections(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="33" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-1, $description=Creating from API Automation, $standardLevel=KINDERGARTEN, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="29" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-2, $description=Creating from API Automation, $standardLevel=KINDERGARTEN, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="31" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-3, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="23" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-4, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="47" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-5, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="28" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-6, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="33" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-7, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="30" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-8, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="23" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-9, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStandards" duration-ms="26" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateSubjects" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$name=Class-10, $description=Creating from API Automation, $standardLevel=PRIMARY, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStandards -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStandards status=SUCCESS method=TestSuiteSetup.testCreateStandards(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:37:28Z" finished-at="2020-02-15T15:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMapBranchStandardSection status=SUCCESS method=TestSuiteSetup.testMapBranchStandardSection(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMapBranchStandardSection(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testMapBranchStandardSection" duration-ms="134" started-at="2020-02-15T15:37:28Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testCreateStandards, com.appyschool.suiteSetup.TestSuiteSetup.testCreateBranch, com.appyschool.suiteSetup.TestSuiteSetup.testCreateSections" finished-at="2020-02-15T15:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{$section=3, $branch=BRANCH_ID_1, $standard=2, statusCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapBranchStandardSection -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:29Z" finished-at="2020-02-15T15:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMapBranchStandardSection status=SUCCESS method=TestSuiteSetup.testMapBranchStandardSection(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:37:29Z" finished-at="2020-02-15T15:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=FAILURE method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="56920" started-at="2020-02-15T15:37:29Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:38:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=1, $gender=M, $fatherName=Devendra, $dateOfJoin=24-05-2015, $firstName=Izhar, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=1, $idNumber=SRK001, $primaryEmailId=, $guardianName=Ekalinga, $lastName=Manoj, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chintamani, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.appyschool.suiteSetup.TestSuiteSetup.testCreateStudents(TestSuiteSetup.java:442)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:38:25Z" finished-at="2020-02-15T15:38:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=FAILURE method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:38:25Z" finished-at="2020-02-15T15:38:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=FAILURE method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="17462" started-at="2020-02-15T15:38:25Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=2, $gender=F, $fatherName=Devesh, $dateOfJoin=24-05-2015, $firstName=Jadhav, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=2, $idNumber=SRK002, $primaryEmailId=, $guardianName=Ekambar, $lastName=Manonith, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chintan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.appyschool.suiteSetup.TestSuiteSetup.testCreateStudents(TestSuiteSetup.java:442)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:38:43Z" finished-at="2020-02-15T15:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=FAILURE method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="12019" started-at="2020-02-15T15:38:43Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=3, $gender=M, $fatherName=Deveshwar, $dateOfJoin=24-05-2015, $firstName=Jag, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=3, $idNumber=SRK003, $primaryEmailId=, $guardianName=Ekana, $lastName=Manoranjan, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chinthanaichelvan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:38:43Z" finished-at="2020-02-15T15:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:38:55Z" finished-at="2020-02-15T15:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:38:55Z" finished-at="2020-02-15T15:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="28464" started-at="2020-02-15T15:38:55Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=4, $gender=F, $fatherName=Devilal, $dateOfJoin=24-05-2015, $firstName=Jagachandra, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=4, $idNumber=SRK004, $primaryEmailId=, $guardianName=Ekanath, $lastName=Manoth, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chintya, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:39:23Z" finished-at="2020-02-15T15:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:39:23Z" finished-at="2020-02-15T15:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="101410" started-at="2020-02-15T15:39:23Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=5, $gender=M, $fatherName=Deviprasad, $dateOfJoin=24-05-2015, $firstName=Jagad, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=5, $idNumber=SRK005, $primaryEmailId=, $guardianName=Ekanga, $lastName=Manprasad, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chirag, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="54" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=6, $gender=F, $fatherName=Devnarayan, $dateOfJoin=24-05-2015, $firstName=Jagadayu, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=6, $idNumber=SRK006, $primaryEmailId=, $guardianName=Ekansh, $lastName=Mansukh, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chiranjeev, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="57" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=7, $gender=M, $fatherName=Devnath, $dateOfJoin=24-05-2015, $firstName=Jagadbandu, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=7, $idNumber=SRK007, $primaryEmailId=, $guardianName=Ekapad, $lastName=Manth, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chirantan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="66" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=8, $gender=F, $fatherName=Devraj, $dateOfJoin=24-05-2015, $firstName=Jagadeep, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=8, $idNumber=SRK008, $primaryEmailId=, $guardianName=Ekaraj, $lastName=Manu, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chirayu, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="65" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=9, $gender=M, $fatherName=Devya, $dateOfJoin=24-05-2015, $firstName=Jagadev, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=9, $idNumber=SRK009, $primaryEmailId=, $guardianName=Ekatan, $lastName=Manuj, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chirtrang, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="59" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=10, $gender=F, $fatherName=Dhanajit, $dateOfJoin=24-05-2015, $firstName=Jagadhidh, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=10, $idNumber=SRK010, $primaryEmailId=, $guardianName=Eknath, $lastName=Manyu, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chithayu, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="66" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=11, $gender=M, $fatherName=Dhananjay, $dateOfJoin=24-05-2015, $firstName=Jagadip, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=11, $idNumber=SRK011, $primaryEmailId=, $guardianName=Ekram, $lastName=Mardav, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitrabhanu, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="109" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=12, $gender=F, $fatherName=Dhanesh, $dateOfJoin=24-05-2015, $firstName=Jagadish, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=12, $idNumber=SRK012, $primaryEmailId=, $guardianName=Elango, $lastName=Mareechi, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitragupta, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="50" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=13, $gender=M, $fatherName=Dhanraj, $dateOfJoin=24-05-2015, $firstName=Jagajeet, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=13, $idNumber=SRK013, $primaryEmailId=, $guardianName=Elil, $lastName=Markandeya, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitraksh, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="49" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=14, $gender=F, $fatherName=Dhansukh, $dateOfJoin=24-05-2015, $firstName=Jagajeevan, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=14, $idNumber=SRK014, $primaryEmailId=, $guardianName=Elilarasan, $lastName=Martand, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitral, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:05Z" finished-at="2020-02-15T15:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="82" started-at="2020-02-15T15:41:05Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=15, $gender=M, $fatherName=Dhanvant, $dateOfJoin=24-05-2015, $firstName=Jagan, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=15, $idNumber=SRK015, $primaryEmailId=, $guardianName=Elilarasu, $lastName=Martanda, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitrarath, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="37" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=16, $gender=F, $fatherName=Dharanidhar, $dateOfJoin=24-05-2015, $firstName=Jaganmay, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=16, $idNumber=SRK016, $primaryEmailId=, $guardianName=Elilvendan, $lastName=Marut, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitrasen, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="41" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=17, $gender=M, $fatherName=Dharendra, $dateOfJoin=24-05-2015, $firstName=Jagannath, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=17, $idNumber=SRK017, $primaryEmailId=, $guardianName=Ellu, $lastName=Maruti, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitresh, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="41" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=18, $gender=F, $fatherName=Dharma, $dateOfJoin=24-05-2015, $firstName=Jagath, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=18, $idNumber=SRK018, $primaryEmailId=, $guardianName=Elumalai, $lastName=Matsendra, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chitta, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="42" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=19, $gender=M, $fatherName=Dharmachandra, $dateOfJoin=24-05-2015, $firstName=Jagesh, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=19, $idNumber=SRK019, $primaryEmailId=, $guardianName=Eshwar, $lastName=Mayank, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chittaprasad, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="40" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=20, $gender=F, $fatherName=Dharmadas, $dateOfJoin=24-05-2015, $firstName=Jagjeevan, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=20, $idNumber=SRK020, $primaryEmailId=, $guardianName=Etash, $lastName=Mayanka, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chittaranjan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="43" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=21, $gender=M, $fatherName=Dharmadev, $dateOfJoin=24-05-2015, $firstName=Jagmohan, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=21, $idNumber=SRK021, $primaryEmailId=, $guardianName=Evyavan, $lastName=Mayur, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chittaswarup, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="36" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=22, $gender=F, $fatherName=Dharmaditya, $dateOfJoin=24-05-2015, $firstName=Jahan, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=22, $idNumber=SRK022, $primaryEmailId=, $guardianName=Faakhir, $lastName=Megh, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chittesh, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="39" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=23, $gender=M, $fatherName=Dharmanand, $dateOfJoin=24-05-2015, $firstName=Jai, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=23, $idNumber=SRK023, $primaryEmailId=, $guardianName=Faaris, $lastName=Megha, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Chudamani, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="37" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=24, $gender=F, $fatherName=Dharmendra, $dateOfJoin=24-05-2015, $firstName=Jaichand, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=24, $idNumber=SRK024, $primaryEmailId=, $guardianName=Faarooq, $lastName=Meghashyam, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dabeet, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="36" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=25, $gender=M, $fatherName=Dharmendu, $dateOfJoin=24-05-2015, $firstName=Jaidayal, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=25, $idNumber=SRK025, $primaryEmailId=, $guardianName=Fadi, $lastName=Meghdutt, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daha, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="34" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=26, $gender=F, $fatherName=Dharmesh, $dateOfJoin=24-05-2015, $firstName=Jaidev, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=26, $idNumber=SRK026, $primaryEmailId=, $guardianName=Fadl, $lastName=Meghnad, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daivya, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="61" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=27, $gender=M, $fatherName=Dharmpal, $dateOfJoin=24-05-2015, $firstName=Jaigath, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=27, $idNumber=SRK027, $primaryEmailId=, $guardianName=Fadl Ullah, $lastName=Mehboob, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daiwik, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="40" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=28, $gender=F, $fatherName=Dharmveer, $dateOfJoin=24-05-2015, $firstName=Jaigopal, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=28, $idNumber=SRK028, $primaryEmailId=, $guardianName=Fahad, $lastName=Mehdi, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daksha, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="35" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=29, $gender=M, $fatherName=Dhaval, $dateOfJoin=24-05-2015, $firstName=Jaikrishna, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=29, $idNumber=SRK029, $primaryEmailId=, $guardianName=Faisal, $lastName=Mehmood, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dakshesh, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="35" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=30, $gender=F, $fatherName=Dhavalachandra, $dateOfJoin=24-05-2015, $firstName=Jaimini, $secondaryEmailId=, $academicYear=1, $primaryPhoneNumber=, $rollNumber=30, $idNumber=SRK030, $primaryEmailId=, $guardianName=Faiyaz, $lastName=Mehul, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dakshi, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="33" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=31, $gender=M, $fatherName=Dhawal, $dateOfJoin=24-05-2015, $firstName=Jainarayan, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=1, $idNumber=SRK031, $primaryEmailId=, $guardianName=Faiz, $lastName=Mekhal, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dakshina, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="33" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=32, $gender=F, $fatherName=Dheeman, $dateOfJoin=24-05-2015, $firstName=Jaipal, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=2, $idNumber=SRK032, $primaryEmailId=, $guardianName=Fakhry, $lastName=Meru, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dalajit, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="37" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=33, $gender=M, $fatherName=Dheemant, $dateOfJoin=24-05-2015, $firstName=Jairaj, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=3, $idNumber=SRK033, $primaryEmailId=, $guardianName=Falak, $lastName=Mihir, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dalapathi, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="44" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=34, $gender=F, $fatherName=Dheer, $dateOfJoin=24-05-2015, $firstName=Jaisal, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=4, $idNumber=SRK034, $primaryEmailId=, $guardianName=Falgu, $lastName=Milan, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dalbhya, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="49" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=35, $gender=M, $fatherName=Dheeran, $dateOfJoin=24-05-2015, $firstName=Jaishankar, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=5, $idNumber=SRK035, $primaryEmailId=, $guardianName=Falguni Phalguni, $lastName=Milap, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daman, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="41" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=36, $gender=F, $fatherName=Dheerendra, $dateOfJoin=24-05-2015, $firstName=Jaisukh, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=6, $idNumber=SRK036, $primaryEmailId=, $guardianName=Fanibhusan, $lastName=Milind, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Damian, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="46" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=37, $gender=M, $fatherName=Dheivamani, $dateOfJoin=24-05-2015, $firstName=Jaitra, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=7, $idNumber=SRK037, $primaryEmailId=, $guardianName=Fanindra, $lastName=Milun, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Damodar, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="42" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=38, $gender=F, $fatherName=Dhevan, $dateOfJoin=24-05-2015, $firstName=Jaiwant, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=8, $idNumber=SRK038, $primaryEmailId=, $guardianName=Fanish, $lastName=Mirza, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Danuj, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:06Z" finished-at="2020-02-15T15:41:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="47" started-at="2020-02-15T15:41:06Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=39, $gender=M, $fatherName=Dhevaneyan, $dateOfJoin=24-05-2015, $firstName=Jalad, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=9, $idNumber=SRK039, $primaryEmailId=, $guardianName=Fanishwar, $lastName=Misal, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Danvir, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="47" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=40, $gender=F, $fatherName=Dhikshit, $dateOfJoin=24-05-2015, $firstName=Jalal, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=10, $idNumber=SRK040, $primaryEmailId=, $guardianName=Faraz, $lastName=Mitesh, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Darpak, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="50" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=41, $gender=M, $fatherName=Dhinakar, $dateOfJoin=24-05-2015, $firstName=Jalendra, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=11, $idNumber=SRK041, $primaryEmailId=, $guardianName=Fareed, $lastName=Mithil, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Darpan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="57" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=42, $gender=F, $fatherName=Dhinanta, $dateOfJoin=24-05-2015, $firstName=Jalendu, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=12, $idNumber=SRK042, $primaryEmailId=, $guardianName=Farhad, $lastName=Mithilesh, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Darshan, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="105" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=43, $gender=M, $fatherName=Dhipin, $dateOfJoin=24-05-2015, $firstName=Jalil, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=13, $idNumber=SRK043, $primaryEmailId=, $guardianName=Farhat, $lastName=Mithun, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Daruka, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="31" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=44, $gender=F, $fatherName=Dhiraj, $dateOfJoin=24-05-2015, $firstName=Jalindra, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=14, $idNumber=SRK044, $primaryEmailId=, $guardianName=Farid, $lastName=Mitra, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dasharath, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="32" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=45, $gender=M, $fatherName=Dhiren, $dateOfJoin=24-05-2015, $firstName=Janak, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=15, $idNumber=SRK045, $primaryEmailId=, $guardianName=Faris, $lastName=Mitul, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dasharathi, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="41" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=46, $gender=F, $fatherName=Dhirendra, $dateOfJoin=24-05-2015, $firstName=JanamejayJanardan, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=16, $idNumber=SRK046, $primaryEmailId=, $guardianName=Farukh Farokh, $lastName=Mohajit, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dasmaya, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="45" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=47, $gender=M, $fatherName=Dhritiman, $dateOfJoin=24-05-2015, $firstName=Janardan, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=17, $idNumber=SRK047, $primaryEmailId=, $guardianName=Fateen, $lastName=Mohak, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dattatreya, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="44" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=48, $gender=F, $fatherName=Dhruv, $dateOfJoin=24-05-2015, $firstName=Janav, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=18, $idNumber=SRK048, $primaryEmailId=, $guardianName=Fateh, $lastName=Mohal, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dayada, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="38" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=49, $gender=M, $fatherName=Dhvanya, $dateOfJoin=24-05-2015, $firstName=Janith, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=19, $idNumber=SRK049, $primaryEmailId=, $guardianName=Fatik, $lastName=Mohamad, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dayakara, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="testCreateStudents" duration-ms="50" started-at="2020-02-15T15:41:07Z" data-provider="getDataFromFile" depends-on-methods="com.appyschool.suiteSetup.TestSuiteSetup.testMapBranchStandardSection" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testcaseId=50, $gender=F, $fatherName=Dhwani, $dateOfJoin=24-05-2015, $firstName=Janya, $secondaryEmailId=, $academicYear=2, $primaryPhoneNumber=, $rollNumber=20, $idNumber=SRK050, $primaryEmailId=, $guardianName=Fawaz, $lastName=Mohan, $dateOfBirth=24-11-2002, $branchId=19, $motherName=Dayanand, $standard=61, $branchStandardSection=13, $alternatePhoneNumber=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStudents -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-15T15:41:07Z" finished-at="2020-02-15T15:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateStudents status=SUCCESS method=TestSuiteSetup.testCreateStudents(java.util.HashMap)[pri:0, instance:com.appyschool.suiteSetup.TestSuiteSetup@15eb5ee5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.appyschool.suiteSetup.TestSuiteSetup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

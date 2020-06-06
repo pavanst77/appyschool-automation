@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Service SUite Setup" configFailurePolicy="Continue">
+	<test name="Suite setup">
+		<classes>
+			<class name="com.appyschool.suiteSetup.TestSuiteSetup" />
+		</classes>
+	</test>
+</suite>

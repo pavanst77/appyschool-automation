@@ -1,0 +1,4 @@
+$name,$description,$addressLine1,$addressLine2,$addressLine3,$state,$city,$country,$pincode,$emailId,$contactNumber1,$contactNumber2,statusCode
+Kondapur,Creating from API Automation,address line1,address line2,address Line3,Telangana,Hyderabad,India,500043,api@autom.com,1234567823,4345454632,200
+Chandanagar,Creating from API Automation,address line1,address line2,address Line3,Telangana,Hyderabad,India,500043,api@autom.com,1234567823,4345454632,200
+Shivarampally,Creating from API Automation,address line1,address line2,address Line3,Telangana,Hyderabad,India,500043,api@autom.com,1234567823,4345454632,200

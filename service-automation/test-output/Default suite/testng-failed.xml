@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.appyschool.suiteSetup.TestSuiteSetup">
+        <methods>
+          <include name="testCreateStandards"/>
+          <include name="testCreateSubjects"/>
+          <include name="testCreateStudents" invocation-numbers="0 1"/>
+          <include name="beforeMethod"/>
+          <include name="testCreateSections"/>
+          <include name="testMapBranchStandardSection"/>
+          <include name="afterMethod"/>
+          <include name="testCreateBranch"/>
+        </methods>
+      </class> <!-- com.appyschool.suiteSetup.TestSuiteSetup -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

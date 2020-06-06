@@ -1,0 +1,5 @@
+$minPercentage,$maxPercentage,$grade,statusCode
+60,100,A,200
+50,60,B,200
+40,50,C,200
+30,40,D,200

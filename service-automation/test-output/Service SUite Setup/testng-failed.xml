@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Service SUite Setup]">
+  <test name="Suite setup(failed)">
+    <classes>
+      <class name="com.appyschool.suiteSetup.TestSuiteSetup">
+        <methods>
+          <include name="testCreateSubjects"/>
+          <include name="beforeMethod"/>
+          <include name="testCreateGrades" invocation-numbers="0 1 2 3"/>
+          <include name="testMapExamSubjects"/>
+          <include name="testCreateExams"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.appyschool.suiteSetup.TestSuiteSetup -->
+    </classes>
+  </test> <!-- Suite setup(failed) -->
+</suite> <!-- Failed suite [Service SUite Setup] -->
