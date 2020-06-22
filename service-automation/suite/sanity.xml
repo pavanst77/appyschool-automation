@@ -3,6 +3,8 @@
 	<test name="Suite setup">
 		<classes>
 			<class name="com.appyschool.suiteSetup.TestSuiteSetup" />
+			<class name="com.appyschool.tests.staff.TestStaff" />
+			<class name="com.appyschool.tests.students.TestStudent" />
 		</classes>
 	</test>
 </suite>
