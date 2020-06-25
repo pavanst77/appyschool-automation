@@ -3,13 +3,12 @@ package com.appyschool.common;
 public interface GenericConstants {
 
 	String CONTENT_TYPE_JSON = "application/json";
-	
-	
+
 	// Config Protperties
 	String BASE_URL = "base.url";
 	String COOKIE = "cookie";
-	
-	//URL - Configuration Module
+
+	// URL - Configuration Module
 	String CONFIGURATION_BRANCH = "configuration.branch";
 	String CONFIGURATION_SUBJECTS = "configuration.subjects";
 	String CONFIGURATION_STANDARDS = "configuration.standards";
@@ -20,23 +19,23 @@ public interface GenericConstants {
 	String CONFIGURATION_EXAMS = "configuration.exams";
 	String CONFIGURATION_EXAMS_SUBJECTS = "configuration.examsSubjects";
 	String CONFIGURATION_GRADES = "configuration.grades";
-	String CONFIGURATION_WEEKLY_TRACKER_SKILLS= "configuration.weeklytrackerskills";
+	String CONFIGURATION_WEEKLY_TRACKER_SKILLS = "configuration.weeklytrackerskills";
 	String CONFIGURATION_ACADEMICYEAR = "configuration.academicYear";
 	String CONFIGURATION_CO_SCHOLASTICAREAS = "configuration.coscholasticareas";
 	String CONFIGURATION_CO_CURRICULARAREAS = "configuration.cocurricularactivities";
-	String BANNER_IMAGER_URL="bannerImage.url";
-	
+	String BANNER_IMAGER_URL = "bannerImage.url";
+	String CONFIGURATION_DESIGNATION = "configuration.staffdesignation";
+
 	// URL - Students
 	String STUDENT_URL = "Student.url";
-	
-	
-	//Students
-	String STUDENTS_URI_PATH = "";
-	String STAFF_URI_PATH = "";
 
-	
-	//Payloads - Configuration Module
+	// Students
+	String STUDENTS_URI_PATH = "";
+	String STAFF_URI_PATH = "create.staff";
+
+	// Payloads - Configuration Module
 	String BRANCH_CREATE_PAYLOAD = "Branch.Create";
+	String STAFF_CREATE_PAYLOAD = "Staff.Create";
 	String SUBJECT_CREATE_PAYLOAD = "Subject.Create";
 	String STANDARDS_CREATE_PAYLOAD = "Standards.Create";
 	String SECTION_CREATE_PAYLOAD = "Sections.Create";
@@ -46,7 +45,10 @@ public interface GenericConstants {
 	String ACADEMIC_YEAR_PAYLOAD = "AcademicYear.Create";
 	String CO_SCHOLASTICAREAS_PAYLOAD = "Co.ScholasticAreas.Create";
 	String CO_CURRICULARAREAS_PAYLOAD = "Co.CurricularAreas.Create";
-	
-	//Payloads - Students
+
+	// Payloads - Students
 	String STUDENT_CREATE_PAYLOAD = "Student.Create";
+
+	// Response
+	String SUCCESS_OK = "OK";
 }
