@@ -13,6 +13,7 @@ import org.json.JSONObject;
 
 import com.appyschool.services.AdhocServices;
 import com.appyschool.services.BranchServices;
+import com.appyschool.services.EventServices;
 import com.appyschool.services.SectionServices;
 import com.appyschool.services.StandardServices;
 import com.appyschool.services.SubjectServices;
@@ -52,6 +53,36 @@ public class CommonMethods {
 		return list;
 	}
 	
+	/**
+	 * Creates Events and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createEvent() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/event.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.EVENT_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("eventName", RandomStringUtils.randomAlphanumeric(10));
+			json.put("description", "Creating from API automation");
+
+			Response response = EventServices.createEvent(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
 	
 	/**
 	 * Creates Subject and returns Json payload

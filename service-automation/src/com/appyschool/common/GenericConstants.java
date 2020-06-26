@@ -32,10 +32,12 @@ public interface GenericConstants {
 	// Students
 	String STUDENTS_URI_PATH = "";
 	String STAFF_URI_PATH = "create.staff";
+	String EVENT_URI_PATH = "create.event";
 
 	// Payloads - Configuration Module
 	String BRANCH_CREATE_PAYLOAD = "Branch.Create";
 	String STAFF_CREATE_PAYLOAD = "Staff.Create";
+	String EVENT_CREATE_PAYLOAD = "Event.Create";
 	String SUBJECT_CREATE_PAYLOAD = "Subject.Create";
 	String STANDARDS_CREATE_PAYLOAD = "Standards.Create";
 	String SECTION_CREATE_PAYLOAD = "Sections.Create";
