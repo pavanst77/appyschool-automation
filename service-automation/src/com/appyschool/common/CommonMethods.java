@@ -12,6 +12,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.appyschool.services.AdhocServices;
+import com.appyschool.services.AssignmentServices;
 import com.appyschool.services.BranchServices;
 import com.appyschool.services.EventServices;
 import com.appyschool.services.SectionServices;
@@ -77,7 +78,40 @@ public class CommonMethods {
 				list.add(responseObj.get("id").toString());
 				return list;
 			} 
-		} catch (Exception e) {
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	/**
+	 * Creates Assignment and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createAssignment() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/Assignment.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.ASSIGNMENT_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("assignmentTitle", RandomStringUtils.randomAlphanumeric(10));
+			json.put("assignmentDescription", "Creating from Common Methods");
+
+			Response response = AssignmentServices.createAssignment(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
 			e.printStackTrace();
 			LOG.error("Exception occured while reading");
 		}

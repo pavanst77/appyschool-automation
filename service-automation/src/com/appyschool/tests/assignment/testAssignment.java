@@ -1,4 +1,4 @@
-package com.appyschool.tests.event;
+package com.appyschool.tests.assignment;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,29 +14,29 @@ import com.appyschool.common.ConfigProperties;
 import com.appyschool.common.DataProviderArguments;
 import com.appyschool.common.GenericConstants;
 import com.appyschool.common.SoftAssertionBase;
+import com.appyschool.services.AssignmentServices;
 import com.appyschool.services.EventServices;
 import com.jayway.restassured.response.Response;	
 
-public class TestEvent extends SoftAssertionBase{
+public class testAssignment extends SoftAssertionBase{
 
 	/**
-	 * Create an Event
+	 * Create an Assignment
 	 * 
 	 * @param map
 	 * @throws JSONException
 	 */
 	@Test(dataProviderClass = com.appyschool.common.CommonUtils.class, dataProvider = "getDataFromFile")
-	@DataProviderArguments("./testData/csv/event.csv")
-	public void testCreateEvent(HashMap<String, String> map) throws JSONException {
-		String jsonTemplate = ConfigProperties.getValue(GenericConstants.EVENT_CREATE_PAYLOAD);
+	@DataProviderArguments("./testData/csv/Assignment.csv")
+	public void testCreateAssignment(HashMap<String, String> map) throws JSONException {
+		String jsonTemplate = ConfigProperties.getValue(GenericConstants.ASSIGNMENT_CREATE_PAYLOAD);
 		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 		
-		json.put("eventName", RandomStringUtils.randomAlphanumeric(10));
-		json.put("description", "Creating from API automation");
-		
+		json.put("assignmentTitle", RandomStringUtils.randomAlphanumeric(10));
+		json.put("assignmentDescription", "Creating from API automation");	
 		
 		System.out.println(json.toString());
-		Response response = EventServices.createEvent(json.toString());
+		Response response = AssignmentServices.createAssignment(json.toString());
 		response.then().log().all();
 
 		JSONObject responseObj = new JSONObject(response.getBody().asString());
@@ -45,30 +45,30 @@ public class TestEvent extends SoftAssertionBase{
 	}
 	
 	/**
-	 * Modify Event
+	 * Modify Assignment
 	 * 
 	 * @param map
 	 * @throws JSONException
 	 */
 	@Test(dataProviderClass = com.appyschool.common.CommonUtils.class, dataProvider = "getDataFromFile")
-	@DataProviderArguments("./testData/csv/event.csv")
-	public void testModifyEvent(HashMap<String, String> map) throws JSONException {
-		List<String> ids= CommonMethods.createEvent();
+	@DataProviderArguments("./testData/csv/Assignment.csv")
+	public void testModifyAssignment(HashMap<String, String> map) throws JSONException {
+		List<String> ids= CommonMethods.createAssignment();
 		if (ids != null) {
 					
-			String jsonTemplate = ConfigProperties.getValue(GenericConstants.EVENT_CREATE_PAYLOAD);
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.ASSIGNMENT_CREATE_PAYLOAD);
 			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 			
-			json.put("eventName","dEMO"+ RandomStringUtils.randomAlphanumeric(10));
-			json.put("description", "Modified from API automation");
+			json.put("assignmentTitle", RandomStringUtils.randomAlphanumeric(10));
+			json.put("assignmentDescription", "Modified from API automation");	
 			json.put("id", ids.get(0));
 
-			Response response = EventServices.modifyEvent(json.toString());
+			Response response = AssignmentServices.modifyAssignment(json.toString());
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
 			verifyEquals(response.statusCode(), 200);
-			verifyEquals(responseObj.getString("message"), "Successfully Modified Event");
+			verifyEquals(responseObj.getString("message"), "Successfully Modified Assignment");
 			verifyTrue(responseObj.get("id") != null);
 		}
 		else {
@@ -77,23 +77,23 @@ public class TestEvent extends SoftAssertionBase{
 	}
 	
 	/**
-	 * Delete Event
+	 * Delete Assignment
 	 * 
 	 * @param map
 	 * @throws JSONException
 	 */
 	@Test()
-	public void testDeleteEvent() throws JSONException {
-		List<String> ids= CommonMethods.createEvent();
+	public void testDeleteAssignment() throws JSONException {
+		List<String> ids= CommonMethods.createAssignment();
 		if (ids != null) {
-			Response response = EventServices.deleteEvent(ids.get(0));
+			Response response = AssignmentServices.deleteAssignment(ids.get(0));
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
 			verifyEquals(response.statusCode(), 200);
-			verifyEquals(responseObj.getString("message"), "Successfully deleted Event");
+			verifyEquals(responseObj.getString("message"), "Successfully deleted assignment details");
 			
-			response = EventServices.getEvent(ids.get(0));
+			response = AssignmentServices.getAssignment(ids.get(0));
 			response.then().log().all();
 			verifyEquals(response.statusCode(), 204); // No Content		
 		} 
@@ -103,16 +103,16 @@ public class TestEvent extends SoftAssertionBase{
 	}
 	
 	/**
-	 * Get Event Details
+	 * Get Assignment Details
 	 * 
 	 * @param map
 	 * @throws JSONException
 	 */
 	@Test()
-	public void testGetEventDetails() throws JSONException {
-		List<String> ids= CommonMethods.createEvent();
+	public void testGetAssignmentDetail() throws JSONException {
+		List<String> ids= CommonMethods.createAssignment();
 		if (ids != null) {
-			Response response = EventServices.getEvent(ids.get(0));
+			Response response = AssignmentServices.getAssignment(ids.get(0));
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
@@ -125,15 +125,15 @@ public class TestEvent extends SoftAssertionBase{
 	}
 	
 	/**
-	 * Get All Event Details
+	 * Get All Assignment Details
 	 * 
 	 * @param map
 	 * @throws JSONException
 	 */
 	@Test()
-	public void testGetallEventDetails() throws JSONException {
+	public void testGetAllAssignmentDetails() throws JSONException {
 		
-			Response response = EventServices.getAllEvent();
+			Response response = AssignmentServices.getAllAssignment();
 			response.then().log().all();
 			
 			verifyEquals(response.statusCode(), 200);
