@@ -62,6 +62,7 @@ public class testAssignment extends SoftAssertionBase{
 			json.put("assignmentTitle", RandomStringUtils.randomAlphanumeric(10));
 			json.put("assignmentDescription", "Modified from API automation");	
 			json.put("id", ids.get(0));
+			json.put("version", 1);
 
 			Response response = AssignmentServices.modifyAssignment(json.toString());
 			response.then().log().all();

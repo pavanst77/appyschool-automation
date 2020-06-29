@@ -34,11 +34,18 @@ public interface GenericConstants {
 	String STAFF_URI_PATH = "create.staff";
 	String EVENT_URI_PATH = "create.event";
 	String ASSIGNMENT_URI_PATH = "create.assignment";
+	String CONCERNS_URI_PATH = "create.concerns";
+	String STAFFATTENDANCE_URI_PATH = "create.staffattendance";
+	String STUDENTATTENDANCE_URI_PATH = "create.studentattendance";
+	String MESSAGETEMPLATES_URI_PATH = "create.messagetemplates";
 
 	// Payloads - Configuration Module
 	String BRANCH_CREATE_PAYLOAD = "Branch.Create";
 	String STAFF_CREATE_PAYLOAD = "Staff.Create";
+	String STAFFATTENDANCE_CREATE_PAYLOAD = "StaffAttendance.Create";
+	String STUDENTATTENDANCE_CREATE_PAYLOAD = "StudentAttednance.Create";
 	String EVENT_CREATE_PAYLOAD = "Event.Create";
+	String CONCERNS_CREATE_PAYLOAD = "Concerns.Create";
 	String ASSIGNMENT_CREATE_PAYLOAD = "Assignment.Create";
 	String SUBJECT_CREATE_PAYLOAD = "Subject.Create";
 	String STANDARDS_CREATE_PAYLOAD = "Standards.Create";
@@ -49,7 +56,8 @@ public interface GenericConstants {
 	String ACADEMIC_YEAR_PAYLOAD = "AcademicYear.Create";
 	String CO_SCHOLASTICAREAS_PAYLOAD = "Co.ScholasticAreas.Create";
 	String CO_CURRICULARAREAS_PAYLOAD = "Co.CurricularAreas.Create";
-
+	String MESSAGETEMPLATES_CREATE_PAYLOAD ="MessageTemplates.Create";
+			
 	// Payloads - Students
 	String STUDENT_CREATE_PAYLOAD = "Student.Create";
 
