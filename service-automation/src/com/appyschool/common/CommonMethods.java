@@ -229,7 +229,7 @@ public class CommonMethods {
 	
 	
 	/**
-	 * Take Student Attendance and returns id of that
+	 * Take Student Attendance(Day) and returns id of that
 	 * 
 	 * @return
 	 */
