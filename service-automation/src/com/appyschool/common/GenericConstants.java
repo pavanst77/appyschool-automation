@@ -37,6 +37,8 @@ public interface GenericConstants {
 	String CONCERNS_URI_PATH = "create.concerns";
 	String STAFFATTENDANCE_URI_PATH = "create.staffattendance";
 	String STUDENTATTENDANCE_URI_PATH = "create.studentattendance";
+	String STUDENTPERIODATTENDANCE_URI_PATH = "create.studentperiodattendance";
+	String VIEWSTUDENTPERIODATTENDANCE_URI_PATH = "create.viewstudentperiodattendance";
 	String MESSAGETEMPLATES_URI_PATH = "create.messagetemplates";
 
 	// Payloads - Configuration Module
@@ -44,6 +46,7 @@ public interface GenericConstants {
 	String STAFF_CREATE_PAYLOAD = "Staff.Create";
 	String STAFFATTENDANCE_CREATE_PAYLOAD = "StaffAttendance.Create";
 	String STUDENTATTENDANCE_CREATE_PAYLOAD = "StudentAttednance.Create";
+	String STUDENTPERIODATTENDANCE_CREATE_PAYLOAD = "StudentPeriodAttendance.Create";
 	String EVENT_CREATE_PAYLOAD = "Event.Create";
 	String CONCERNS_CREATE_PAYLOAD = "Concerns.Create";
 	String ASSIGNMENT_CREATE_PAYLOAD = "Assignment.Create";

@@ -21,6 +21,7 @@ import com.appyschool.services.SectionServices;
 import com.appyschool.services.StaffAttendanceServices;
 import com.appyschool.services.StandardServices;
 import com.appyschool.services.StudentAttendanceServices;
+import com.appyschool.services.StudentPeriodAttendanceServices;
 import com.appyschool.services.SubjectServices;
 import com.jayway.restassured.response.Response;
 
@@ -251,6 +252,44 @@ public class CommonMethods {
 			System.out.println(json.toString());
 			System.out.println(newjson.toString());
 			Response response = StudentAttendanceServices.createStudentAttendance(newjson.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+
+	/**
+	 * Take Student Attendance(Periodic) and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> StudentPeriodAttendance() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/PeriodicStudentAttendance.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.STUDENTPERIODATTENDANCE_CREATE_PAYLOAD);
+
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("reason", RandomStringUtils.randomAlphabetic(3)+" "+RandomStringUtils.randomAlphabetic(3)+" "+RandomStringUtils.randomAlphabetic(3));
+
+			
+			JSONArray newjson= new JSONArray();
+			newjson.put(json);
+			System.out.println(json.toString());
+			System.out.println(newjson.toString());
+			Response response = StudentPeriodAttendanceServices.createStudentAttendance(newjson.toString());
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
