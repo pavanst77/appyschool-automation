@@ -14,11 +14,12 @@ import com.appyschool.common.ConfigProperties;
 import com.appyschool.common.DataProviderArguments;
 import com.appyschool.common.GenericConstants;
 import com.appyschool.common.SoftAssertionBase;
+import com.appyschool.common.SuiteSetupProperties;
 import com.appyschool.services.EventServices;
 import com.jayway.restassured.response.Response;	
 
 public class TestEvent extends SoftAssertionBase{
-
+	int n=1;
 	/**
 	 * Create an Event
 	 * 
@@ -29,8 +30,12 @@ public class TestEvent extends SoftAssertionBase{
 	@DataProviderArguments("./testData/csv/event.csv")
 	public void testCreateEvent(HashMap<String, String> map) throws JSONException {
 		String jsonTemplate = ConfigProperties.getValue(GenericConstants.EVENT_CREATE_PAYLOAD);
-		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+		map.put("$branchid", SuiteSetupProperties.getValue("BRANCH_ID_"+n));
+		map.put("$version", SuiteSetupProperties.getValue("BRANCH_VERSION_"+n));
+		n++;
 		
+		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+	
 		json.put("eventName", RandomStringUtils.randomAlphanumeric(10));
 		json.put("description", "Creating from API automation");
 		

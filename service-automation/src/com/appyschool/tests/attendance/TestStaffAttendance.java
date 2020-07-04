@@ -34,7 +34,7 @@ public class TestStaffAttendance extends SoftAssertionBase{
 		String jsonTemplate = ConfigProperties.getValue(GenericConstants.STAFFATTENDANCE_CREATE_PAYLOAD);
 		JSONObject object1 = new JSONObject();
 		
-		object1.put("id", "6261547495754199570");
+		object1.put("id", SuiteSetupProperties.getValue("Staff_ID"));
 
 		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 
@@ -65,40 +65,13 @@ public class TestStaffAttendance extends SoftAssertionBase{
 			Response response = StaffAttendanceServices.deleteStaffAttendance(ids.get(0));
 			response.then().log().all();
 		
-			JSONObject responseObj = new JSONObject(response.getBody().asString());
 			verifyEquals(response.statusCode(), 200);
-			verifyEquals(responseObj.getString("message"), "Successfully deleted Staff Attendance");
-			
-			response = StaffAttendanceServices.getStaffAttendance(ids.get(0));
-			response.then().log().all();
-			verifyEquals(response.statusCode(), 204); // No Content		
-		} 
+			} 
 		else {
 			verifyTrue(false);
 		}
 	}
 	
-	/**
-	 * Get Staff Attendance
-	 * 
-	 * @param map
-	 * @throws JSONException
-	 */
-	@Test()
-	public void testGetEventDetails() throws JSONException {
-		List<String> ids= CommonMethods.StaffAttendance();
-		if (ids != null) {
-			Response response = StaffAttendanceServices.getStaffAttendance(ids.get(0));
-			response.then().log().all();
-			
-			JSONObject responseObj = new JSONObject(response.getBody().asString());
-			verifyEquals(response.statusCode(), 200);
-			verifyTrue(responseObj.has("id"));
-		} 
-		else {
-			verifyTrue(false);
-		}
-	}
 	
 	/**
 	 * Get All Staff Attendance Details

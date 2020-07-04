@@ -37,7 +37,9 @@ public interface GenericConstants {
 	String CONCERNS_URI_PATH = "create.concerns";
 	String STAFFATTENDANCE_URI_PATH = "create.staffattendance";
 	String STUDENTATTENDANCE_URI_PATH = "create.studentattendance";
+	String STUDENTATTENDANCEDELETE_URI_PATH="delete.studentattendance";
 	String STUDENTPERIODATTENDANCE_URI_PATH = "create.studentperiodattendance";
+	String DELETESTUDENTPERIODATTENDANCE_URI_PATH = "delete.studentperiodattendance";
 	String VIEWSTUDENTPERIODATTENDANCE_URI_PATH = "create.viewstudentperiodattendance";
 	String MESSAGETEMPLATES_URI_PATH = "create.messagetemplates";
 

@@ -22,7 +22,8 @@ import com.appyschool.services.StudentAttendanceServices;
 import com.jayway.restassured.response.Response;	
 
 public class TestStudentAttendance extends SoftAssertionBase{
-
+	
+	int n=0;
 	/**
 	 * Take Student Attendance(Day)
 	 * 
@@ -34,9 +35,8 @@ public class TestStudentAttendance extends SoftAssertionBase{
 	public void testStudentAttendance(HashMap<String, String> map) throws JSONException {
 		String jsonTemplate = ConfigProperties.getValue(GenericConstants.STUDENTATTENDANCE_CREATE_PAYLOAD);
 		JSONObject object1 = new JSONObject();
-		
-		object1.put("id", "6732094942523778916");
-
+		n++;
+		object1.put("id", SuiteSetupProperties.getValue("STUDENT_ID_" + n));
 		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 
 		json.put("studentDetails", object1);
@@ -66,40 +66,13 @@ public class TestStudentAttendance extends SoftAssertionBase{
 			Response response = StudentAttendanceServices.deleteStudentAttendance(ids.get(0));
 			response.then().log().all();
 		
-			JSONObject responseObj = new JSONObject(response.getBody().asString());
 			verifyEquals(response.statusCode(), 200);
-			verifyEquals(responseObj.getString("message"), "Successfully deleted Student attendance");
-			
-			response = StudentAttendanceServices.getStudentAttendance(ids.get(0));
-			response.then().log().all();
-			verifyEquals(response.statusCode(), 204); // No Content		
 		} 
 		else {
 			verifyTrue(false);
 		}
 	}
 	
-	/**
-	 * Get Student Attendance(Day) 
-	 * 
-	 * @param map
-	 * @throws JSONException
-	 */
-	@Test()
-	public void testGetStudentDetails() throws JSONException {
-		List<String> ids= CommonMethods.StudentAttendance();
-		if (ids != null) {
-			Response response = StudentAttendanceServices.getStudentAttendance(ids.get(0));
-			response.then().log().all();
-			
-			JSONObject responseObj = new JSONObject(response.getBody().asString());
-			verifyEquals(response.statusCode(), 200);
-			verifyTrue(responseObj.has("id"));
-		} 
-		else {
-			verifyTrue(false);
-		}
-	}
 	
 	/**
 	 * Get All Student Attendance(Day) Details
