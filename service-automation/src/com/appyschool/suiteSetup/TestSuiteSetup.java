@@ -47,6 +47,8 @@ public class TestSuiteSetup extends SoftAssertionBase {
 		String jsonTemplate = ConfigProperties.getValue(GenericConstants.BRANCH_CREATE_PAYLOAD);
 		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 		json.put("name", map.get("$name") + RandomStringUtils.randomAlphanumeric(2));
+		json.put("contactNumber1", RandomStringUtils.randomNumeric(10));
+		json.put("contactNumber2", RandomStringUtils.randomNumeric(10));
 
 		Response response = BranchServices.createBranch(json.toString());
 		response.then().log().all();
@@ -111,6 +113,8 @@ public class TestSuiteSetup extends SoftAssertionBase {
 		verifyEquals(response.statusCode(), Integer.parseInt(map.get("statusCode")));
 		verifyTrue(responseObj.get("id") != null);
 		SuiteSetupProperties.setValue("STANDARDS_ID_" + k, responseObj.get("id"));
+		SuiteSetupProperties.setValue("STANDARDS_VERSION_" + k, responseObj.get("version"));
+
 	}
 
 	/**
@@ -368,6 +372,7 @@ public class TestSuiteSetup extends SoftAssertionBase {
 		verifyEquals(response.statusCode(), Integer.parseInt(map.get("statusCode")));
 		verifyTrue(responseObj.get("id") != null);
 		SuiteSetupProperties.setValue("ACADEMIC_YEAR_ID_" + q, responseObj.get("id"));
+		System.out.println("Academic Year id is: "+ SuiteSetupProperties.getValue("ACADEMIC_YEAR_ID_" + q));
 	}
 
 	/**
@@ -424,9 +429,9 @@ public class TestSuiteSetup extends SoftAssertionBase {
 		String jsonTemplate = ConfigProperties.getValue(GenericConstants.STUDENT_CREATE_PAYLOAD);
 
 		Map<String, String> branchStandardIds = CommonMethods
-				.getBranchStandardFromMapBranchStandardSections(SuiteSetupProperties.getValue("BRANCH_ID_" + n));
+				.getBranchStandardFromMapBranchStandardSections(SuiteSetupProperties.getValue("BRANCH_ID_" + 1));
 
-		map.put("$branchId", SuiteSetupProperties.getValue("BRANCH_ID_" + n));
+		map.put("$branchId", SuiteSetupProperties.getValue("BRANCH_ID_" + 1));
 		map.put("$branchStandardSection", branchStandardIds.get("mapId"));
 		map.put("$standard", branchStandardIds.get("standardId"));
 

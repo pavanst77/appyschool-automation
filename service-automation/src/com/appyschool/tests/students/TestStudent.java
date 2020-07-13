@@ -35,9 +35,9 @@ public class TestStudent extends SoftAssertionBase{
 		
 		
 		// Function to get BranchStandardSections ID from SuiteSetupProperties
-		Map<String, String> branchStandardIds = CommonMethods.getBranchStandardFromMapBranchStandardSections(SuiteSetupProperties.getValue("BRANCH_ID_"+n));
+		Map<String, String> branchStandardIds = CommonMethods.getBranchStandardFromMapBranchStandardSections(SuiteSetupProperties.getValue("BRANCH_ID_"+1));
 		
-		map.put("$branchId", SuiteSetupProperties.getValue("BRANCH_ID_"+n));
+		map.put("$branchId", SuiteSetupProperties.getValue("BRANCH_ID_"+1));
 		map.put("$branchStandardSection", branchStandardIds.get("mapId"));
 		map.put("$standard", branchStandardIds.get("standardId"));
 			
