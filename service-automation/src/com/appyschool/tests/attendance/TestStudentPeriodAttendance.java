@@ -60,13 +60,8 @@ public class TestStudentPeriodAttendance extends SoftAssertionBase{
 			Response response = StudentPeriodAttendanceServices.deleteStudentAttendance(ids.get(0));
 			response.then().log().all();
 		
-			JSONObject responseObj = new JSONObject(response.getBody().asString());
 			verifyEquals(response.statusCode(), 200);
-			verifyEquals(responseObj.getString("message"), "Successfully deleted Student periodic attendance");
-			
-			response = StudentPeriodAttendanceServices.getStudentAttendance(ids.get(0));
-			response.then().log().all();
-			verifyEquals(response.statusCode(), 204); // No Content		
+
 		} 
 		else {
 			verifyTrue(false);

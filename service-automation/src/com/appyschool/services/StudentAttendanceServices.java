@@ -45,7 +45,7 @@ public class StudentAttendanceServices {
 	 */
 	public static Response deleteStudentAttendance(String id){
 		RequestSpecification request = CommonUtils.getRequestSpec();
-		return request.contentType(GenericConstants.CONTENT_TYPE_JSON).post(ConfigProperties.getValue(GenericConstants.STUDENTATTENDANCE_URI_PATH) + id);
+		return request.contentType(GenericConstants.CONTENT_TYPE_JSON).post(ConfigProperties.getValue(GenericConstants.STUDENTATTENDANCEDELETE_URI_PATH) + id);
 	}
 	
 	/**

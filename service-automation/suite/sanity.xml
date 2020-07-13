@@ -5,6 +5,12 @@
 			<class name="com.appyschool.suiteSetup.TestSuiteSetup" />
 			<class name="com.appyschool.tests.staff.TestStaff" />
 			<class name="com.appyschool.tests.students.TestStudent" />
+			<class name="com.appyschool.tests.concerns.TestConcerns" />
+			<class name="com.appyschool.tests.event.TestEvent" />
+			<class name="com.appyschool.tests.assignment.testAssignment" />
+			<class name="com.appyschool.tests.attendance.TestStaffAttendance" />
+			<class name="com.appyschool.tests.attendance.TestStudentAttendance" />
+			<class name="com.appyschool.tests.attendance.TestStudentPeriodAttendance" />
 		</classes>
 	</test>
 </suite>

@@ -23,6 +23,7 @@ import com.appyschool.services.DesignationServices;
 import com.appyschool.services.ExamServices;
 import com.appyschool.services.GradesServices;
 import com.appyschool.services.SectionServices;
+import com.appyschool.services.StaffServices;
 import com.appyschool.services.StandardServices;
 import com.appyschool.services.StudentServices;
 import com.appyschool.services.SubjectServices;
@@ -54,6 +55,7 @@ public class TestSuiteSetup extends SoftAssertionBase {
 		verifyEquals(response.statusCode(), Integer.parseInt(map.get("statusCode")));
 		verifyTrue(responseObj.get("id") != null);
 		SuiteSetupProperties.setValue("BRANCH_ID_" + i, responseObj.get("id"));
+		SuiteSetupProperties.setValue("BRANCH_VERSION_" + i, responseObj.get("version"));
 	}
 
 	/**
@@ -468,6 +470,39 @@ public class TestSuiteSetup extends SoftAssertionBase {
 
 		// Setting the Designation Id so that it can be used whenevevr required
 		SuiteSetupProperties.setValue("Designation_ID", responseObj.get("id"));
+	}
+	
+	/**
+	 * Create a Staff
+	 * 
+	 * @param map
+	 * @throws JSONException
+	 */
+	@Test(dataProviderClass = com.appyschool.common.CommonUtils.class, dataProvider = "getDataFromFile",dependsOnMethods = "testCreateDesignation")
+	@DataProviderArguments("./testData/csv/staff1.csv")
+	public void testCreateStaff(HashMap<String, String> map) throws JSONException {
+
+		String jsonTemplate = ConfigProperties.getValue(GenericConstants.STAFF_CREATE_PAYLOAD);
+		JSONObject object1 = new JSONObject();
+
+		// Function to get Designation ID from SuiteSetupProperties
+		object1.put("id", SuiteSetupProperties.getValue("Designation_ID"));
+
+		JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+		json.put("staffDesignation", object1);
+		json.put("primaryPhoneNumber", RandomStringUtils.randomNumeric(5) + RandomStringUtils.randomNumeric(5));
+		json.put("alternatePhoneNumber", RandomStringUtils.randomNumeric(5) + RandomStringUtils.randomNumeric(5));
+		json.put("primaryEmailId", map.get("$firstName") + RandomStringUtils.randomNumeric(2) + "@gmail.com");
+
+		System.out.println(json.toString());
+		Response response = StaffServices.createStaff(json.toString());
+		response.then().log().all();
+
+		JSONObject responseObj = new JSONObject(response.getBody().asString());
+		
+		// Setting the Staff ID and Version so that it can be used whenevevr required
+		SuiteSetupProperties.setValue("Staff_ID", responseObj.get("id"));
 	}
 
 }

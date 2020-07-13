@@ -173,16 +173,28 @@ public class CommonMethods {
 			json.put("actionTaken","YES");
 			json.put("complaintState","ACTIONTAKEN");
 			json.put("version",1);
-			Response response = ConcernsServices.createConcerns(json.toString());
+			ConcernsServices.createConcerns(json.toString());	
+			Response response =ConcernsServices.getAllConcerns();
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
+
+			//extracting data array from json string
+			JSONArray ja_data = responseObj.getJSONArray("rows");
+			int length = responseObj .length(); 
 			if (response.statusCode() == 200) {
-				list = new ArrayList<String>();
-				list.add(responseObj.get("id").toString());
-				return list;
-			} 
-		} 
+			list = new ArrayList<String>();
+			//loop to get all json objects from data json array
+			for(int i=0;i<length;i++){
+			    JSONObject jsonn = ja_data.getJSONObject(i);
+			    String id = jsonn.getString("id");
+			    System.out.println("Concern ID is: "+id);
+			    list.add(id);
+			}
+			
+			return list;
+			}
+	} 
 		catch (Exception e) {
 			e.printStackTrace();
 			LOG.error("Exception occured while reading");
@@ -211,16 +223,29 @@ public class CommonMethods {
 			newjson.put(json);
 			System.out.println(json.toString());
 			System.out.println(newjson.toString());
-			Response response = StaffAttendanceServices.createStaffAttendance(newjson.toString());
-			response.then().log().all();
+			StaffAttendanceServices.createStaffAttendance(newjson.toString());
+			 Response response =StaffAttendanceServices.getAllStaffAttendance();
+			 response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
+
+			//extracting data array from json string
+			JSONArray ja_data = responseObj.getJSONArray("rows");
+			int length = responseObj .length(); 
 			if (response.statusCode() == 200) {
-				list = new ArrayList<String>();
-				list.add(responseObj.get("id").toString());
-				return list;
-			} 
-		} 
+			list = new ArrayList<String>();
+			//loop to get all json objects from data json array
+			for(int i=0;i<length;){
+			    JSONObject jsonn = ja_data.getJSONObject(i);
+			    String id = jsonn.getString("id");
+			    System.out.println("Staff ID is: "+id);
+			    list.add(id);
+			    i++;
+			}
+			
+			return list;
+			}
+	} 
 		catch (Exception e) {
 			e.printStackTrace();
 			LOG.error("Exception occured while reading");
@@ -246,21 +271,31 @@ public class CommonMethods {
 			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
 
 			json.put("studentDetails", object1);
-			
 			JSONArray newjson= new JSONArray();
 			newjson.put(json);
-			System.out.println(json.toString());
 			System.out.println(newjson.toString());
-			Response response = StudentAttendanceServices.createStudentAttendance(newjson.toString());
-			response.then().log().all();
+			 StudentAttendanceServices.createStudentAttendance(newjson.toString());
+			 Response response =StudentAttendanceServices.getAllStudentAttendance();
+			 response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
+
+			//extracting data array from json string
+			JSONArray ja_data = responseObj.getJSONArray("rows");
+			int length = responseObj .length(); 
 			if (response.statusCode() == 200) {
-				list = new ArrayList<String>();
-				list.add(responseObj.get("id").toString());
-				return list;
-			} 
-		} 
+			list = new ArrayList<String>();
+			//loop to get all json objects from data json array
+			for(int i=0;i<length;i++){
+			    JSONObject jsonn = ja_data.getJSONObject(i);
+			    String id = jsonn.getString("id");
+			    System.out.println("id is: "+id);
+			    list.add(id);
+			}
+			
+			return list;
+			}
+	} 
 		catch (Exception e) {
 			e.printStackTrace();
 			LOG.error("Exception occured while reading");
@@ -289,16 +324,28 @@ public class CommonMethods {
 			newjson.put(json);
 			System.out.println(json.toString());
 			System.out.println(newjson.toString());
-			Response response = StudentPeriodAttendanceServices.createStudentAttendance(newjson.toString());
+			StudentPeriodAttendanceServices.createStudentAttendance(newjson.toString());
+			Response response =StudentPeriodAttendanceServices.getAllStudentAttendance();
 			response.then().log().all();
 			
 			JSONObject responseObj = new JSONObject(response.getBody().asString());
+
+			//extracting data array from json string
+			JSONArray ja_data = responseObj.getJSONArray("rows");
+			int length = responseObj .length(); 
 			if (response.statusCode() == 200) {
-				list = new ArrayList<String>();
-				list.add(responseObj.get("id").toString());
-				return list;
-			} 
-		} 
+			list = new ArrayList<String>();
+			//loop to get all json objects from data json array
+			for(int i=0;i<length;i++){
+			    JSONObject jsonn = ja_data.getJSONObject(i);
+			    String id = jsonn.getString("id");
+			    System.out.println("ID is: "+id);
+			    list.add(id);
+			}
+			
+			return list;
+			}
+	} 
 		catch (Exception e) {
 			e.printStackTrace();
 			LOG.error("Exception occured while reading");
