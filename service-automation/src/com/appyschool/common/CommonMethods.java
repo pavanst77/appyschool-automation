@@ -12,10 +12,16 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.appyschool.services.AdhocServices;
+import com.appyschool.services.AssignFeeServices;
 import com.appyschool.services.AssignmentServices;
 import com.appyschool.services.BranchServices;
 import com.appyschool.services.ConcernsServices;
+import com.appyschool.services.ConcessionTypesServices;
 import com.appyschool.services.EventServices;
+import com.appyschool.services.FeeServices;
+import com.appyschool.services.FeeSubTypesServices;
+import com.appyschool.services.FeeTypesServices;
+import com.appyschool.services.FoodServices;
 import com.appyschool.services.MessageTemplatesServices;
 import com.appyschool.services.SectionServices;
 import com.appyschool.services.StaffAttendanceServices;
@@ -90,6 +96,72 @@ public class CommonMethods {
 		}
 		return list;
 	}
+	
+	
+	/**
+	 * Create Fee Types and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createFeeTypes() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/fee.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.FEETYPES_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("feeName", RandomStringUtils.randomAlphabetic(10));
+
+			Response response = FeeTypesServices.createFee(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	
+	/**
+	 * Create Fee Sub Types and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createFeeSubTypes() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/fee.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.FEETYPES_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("feeName", RandomStringUtils.randomAlphabetic(10));
+
+			Response response = FeeSubTypesServices.createFee(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	
 	
 	/**
 	 * Creates Assignment and returns id of that
@@ -255,6 +327,37 @@ public class CommonMethods {
 	
 	
 	/**
+	 * Create Concession Types and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createConcessionTypes() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/fee.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.CONCESSIONTYPES_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("concessionName", RandomStringUtils.randomAlphabetic(10));
+
+			Response response = ConcessionTypesServices.createConcession(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	/**
 	 * Take Student Attendance(Day) and returns id of that
 	 * 
 	 * @return
@@ -353,6 +456,40 @@ public class CommonMethods {
 		return list;
 	}
 
+	
+	/**
+	 * Creates Food and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createFood() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/food.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.FOOD_CREATE_PAYLOAD);
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+
+			json.put("title", RandomStringUtils.randomAlphanumeric(10));
+			json.put("description", "Creating from API automation");
+
+			Response response = FoodServices.createFood(json.toString());
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+			if (response.statusCode() == 200) {
+				list = new ArrayList<String>();
+				list.add(responseObj.get("id").toString());
+				return list;
+			} 
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	
 	/**
 	 * Creates Subject and returns Json payload
 	 * 
@@ -381,6 +518,102 @@ public class CommonMethods {
 		}
 		return responseObj;
 	}
+	
+	/**
+	 * Create Fee and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<Integer> createFee() {
+		List<Integer> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/fee.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.FEE_CREATE_PAYLOAD);
+
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+			json.put("totalAmount", RandomStringUtils.randomNumeric(10));
+
+			JSONArray newjson= new JSONArray();
+
+			newjson.put(json);
+			
+			System.out.println(newjson.toString());
+			FeeServices.createFee(newjson.toString());
+			Response response =FeeServices.getAllFee();
+			response.then().log().all();
+			
+			JSONObject responseObj = new JSONObject(response.getBody().asString());
+
+			//extracting data array from json string
+			JSONArray ja_data = responseObj.getJSONArray("rows");
+			int length = responseObj .length(); 
+			if (response.statusCode() == 200) {
+			list = new ArrayList<Integer>();
+			//loop to get all json objects from data json array
+			for(int i=0;i<length;i++){
+			    JSONObject jsonn = ja_data.getJSONObject(i);
+			    Integer id = jsonn.getInt("id");
+			    System.out.println("FEE ID ISS: "+id);
+			    list.add(id);
+			}
+			
+			return list;
+			}
+	} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
+	/**
+	 * Create AssignFee and returns id of that
+	 * 
+	 * @return
+	 */
+	public static List<String> createAssignFee() {
+		List<String> list = null;
+		try {
+			HashMap<String, String>  map = CommonUtils.getDataFromFile("./testData/csv/assignfee.csv");
+			String jsonTemplate = ConfigProperties.getValue(GenericConstants.ASSIGNFEE_CREATE_PAYLOAD);
+			
+			JSONObject json = CommonUtils.getJsonFromTemplate(jsonTemplate, map);
+			
+			System.out.println(json.toString());
+			AssignFeeServices.createFee(json.toString());
+
+			Response response =AssignFeeServices.getFee("1","1");
+			response.then().log().all();
+			
+
+			 JSONArray values = new JSONArray(response.getBody().asString());
+			 if (response.statusCode() == 200) {
+			
+				 list = new ArrayList<String>();
+				 for (int i = 0; i < values.length(); i++) {
+										JSONObject obj = values.getJSONObject(i); 
+										
+										if((obj.getInt("feeDetailId"))==(int)obj.getInt("feeDetailId"))
+										{
+										int feeid = obj.getInt("feeDetailId");
+										String feid=Integer.toString(feeid); 
+										list.add(feid.toString());
+										String id = obj.getString("id");
+										list.add(id.toString());		
+										System.out.println("ID AND FEEID ARE:  " + id + ", " + feeid);
+										}
+				 											}
+				 return list;
+			 									}
+			} 
+		catch (Exception e) {
+			e.printStackTrace();
+			LOG.error("Exception occured while reading");
+		}
+		return list;
+	}
+	
 	
 	/**
 	 * Get Branch current version by using Id

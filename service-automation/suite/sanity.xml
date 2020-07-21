@@ -11,6 +11,12 @@
 			<class name="com.appyschool.tests.attendance.TestStaffAttendance" />
 			<class name="com.appyschool.tests.attendance.TestStudentAttendance" />
 			<class name="com.appyschool.tests.attendance.TestStudentPeriodAttendance" />
+			<class name="com.appyschool.tests.fee.TestFee" />
+			<class name="com.appyschool.tests.fee.TestAssignFee" />
+			<class name="com.appyschool.tests.fee.TestFeeTypes" />
+			<class name="com.appyschool.tests.fee.TestFeeSubTypes" />
+			<class name="com.appyschool.tests.fee.TestConcessionTypes" />
+			<class name="com.appyschool.tests.food.TestFood" />
 		</classes>
 	</test>
 </suite>

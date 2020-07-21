@@ -42,7 +42,18 @@ public interface GenericConstants {
 	String DELETESTUDENTPERIODATTENDANCE_URI_PATH = "delete.studentperiodattendance";
 	String VIEWSTUDENTPERIODATTENDANCE_URI_PATH = "create.viewstudentperiodattendance";
 	String MESSAGETEMPLATES_URI_PATH = "create.messagetemplates";
-
+	String FEE_URI_PATH="create.fee";
+	String ASSIGNFEE_URI_PATH="create.assignfee";
+	String VIEWASSIGNFEE_URI_PATH="create.viewassignfee";
+	String FEETYPES_URI_PATH ="create.feetypes";
+	String FEESUBTYPES_URI_PATH ="create.feesubtypes";
+	String CONCESSIONTYPES_URI_PATH ="create.concessiontypes";
+	String FEESUMMARYSTANDARD_URI_PATH ="view.feesummarystandard";
+	String FEESUMMARY_URI_PATH ="view.feesummary";
+	String VIEWSTUDENTFEEENTRY_URI_PATH ="view.studentfeeentry";
+	String STUDENTFEEENTRY_URI_PATH ="create.studentfeeentry";
+	String FOOD_URI_PATH ="create.food";
+	
 	// Payloads - Configuration Module
 	String BRANCH_CREATE_PAYLOAD = "Branch.Create";
 	String STAFF_CREATE_PAYLOAD = "Staff.Create";
@@ -62,7 +73,14 @@ public interface GenericConstants {
 	String CO_SCHOLASTICAREAS_PAYLOAD = "Co.ScholasticAreas.Create";
 	String CO_CURRICULARAREAS_PAYLOAD = "Co.CurricularAreas.Create";
 	String MESSAGETEMPLATES_CREATE_PAYLOAD ="MessageTemplates.Create";
-			
+	String FEE_CREATE_PAYLOAD ="Fee.Create";
+	String ASSIGNFEE_CREATE_PAYLOAD ="AssignFee.Create";
+	String FEETYPES_CREATE_PAYLOAD ="FeeTypes.Create";
+	String CONCESSIONTYPES_CREATE_PAYLOAD ="ConcessionTypes.Create";
+	String STUDENTFEEENTRYSTATUS_CREATE_PAYLOAD ="StudentFeeEntryStatus.Create";
+	String FOOD_CREATE_PAYLOAD ="Food.Create";
+	String FOOD_MODIFY_PAYLOAD ="Food.Modify";
+
 	// Payloads - Students
 	String STUDENT_CREATE_PAYLOAD = "Student.Create";
 
